@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="bodybg" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="age_application.FXMLDocumentController">
+   <children>
+      <VBox layoutX="223.0" layoutY="20.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="#0b9adb" stroke="BLACK" strokeWidth="0.0" style="-fx-text-alignment: center;" text="Hey Bro" wrappingWidth="604.654296875">
+               <font>
+                  <Font name="Arial Black" size="38.0" />
+               </font>
+            </Text>
+            <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" prefHeight="64.0" prefWidth="606.0" style="-fx-background-color: teal; -fx-alignment: center; -fx-background-size: 100% 100%;" text="Welcome!">
+               <font>
+                  <Font size="43.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="601.0" text="***Enter Age***">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textf" promptText="ex.21" />
+            <Label alignment="CENTER" prefHeight="17.0" prefWidth="599.0" text="Press OK!" />
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="btn" mnemonicParsing="false" onAction="#age_set" prefHeight="34.0" prefWidth="53.0" text="OK" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

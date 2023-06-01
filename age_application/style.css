@@ -1,0 +1,14 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 12, 2023, 7:41:31 PM
+    Author     : SR Kuhin
+*/
+
+.bodybg{
+    -fx-background-image: url("/age_application/1667995884109.jpg");
+    -fx-background-size: 100% 100%;
+    
+}
